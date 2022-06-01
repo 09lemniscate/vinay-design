@@ -309,11 +309,39 @@ a:active {
 @media screen and (max-width: 1240px) {
   .w-100 {
     max-width: 600px;
+    max-height: 355px;
+    margin: auto;
   }
 }
 @media screen and (min-width: 1240px) {
   .w-100 {
-    max-width: 1150px;
-    max-height: 800px;
+    max-width: 1042px;
+    max-height: 616px;
+    margin: auto;
   }
+}
+@media screen and (max-width: 480px) {
+  .section-1-header,
+  .section-2-header {
+    font-size: 20px;
+  }
+  .section-2-desc-1 {
+    font-size: 16px;
+  }
+  .lead {
+    font-size: 1rem;
+  }
+  .w-50 {
+    float: left !important;
+  }
+  .date {
+    font-size: 12px;
+  }
+  .py-6 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+.w-50 {
+  float: right;
 }
