@@ -316,7 +316,7 @@ a:active {
 @media screen and (min-width: 1240px) {
   .w-100 {
     max-width: 850px;
-    max-height: 616px;
+    max-height: 460px;
     margin: auto;
   }
 }
